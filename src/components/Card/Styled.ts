@@ -74,6 +74,7 @@ const CardStyled = styled.article`
           cursor: pointer;
           z-index: 100;
           transition: background-color 150ms ease-in-out;
+          text-decoration: none;
 
           .article__truncate {
             white-space: nowrap;

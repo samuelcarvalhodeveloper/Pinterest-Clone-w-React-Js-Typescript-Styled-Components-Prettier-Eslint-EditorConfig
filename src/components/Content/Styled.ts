@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ContentStyled = styled.section`
 
-  .center{
+  .section__center{
     width: 100%;
     max-width: 176.4rem;
     margin: 0 auto;
@@ -14,7 +14,7 @@ const ContentStyled = styled.section`
 
   @media screen and (min-width: 1250px) and (max-width: 1718px)  {
 
-    .center {
+    .section__center {
       max-width: 126rem;
       column-count: 6;
 
@@ -23,7 +23,7 @@ const ContentStyled = styled.section`
 
   @media screen and (min-width: 1010px) and (max-width: 1249px){
 
-    .center {
+    .section__center {
       max-width: 100.8rem;
       column-count: 4;
     }
@@ -31,7 +31,7 @@ const ContentStyled = styled.section`
 
   @media screen and (min-width: 755px) and (max-width: 1010px){
 
-    .center {
+    .section__center {
       max-width: 75.6rem;
       column-count: 3;
     }
@@ -39,7 +39,7 @@ const ContentStyled = styled.section`
 
   @media screen and (max-width: 754px) {
 
-    .center {
+    .section__center {
       max-width: 50.4rem;
       column-count: 2;
       column-width: initial;

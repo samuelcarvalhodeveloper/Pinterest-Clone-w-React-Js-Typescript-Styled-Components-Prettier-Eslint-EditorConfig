@@ -26,5 +26,6 @@ module.exports = {
     "react/require-default-props": 0,
     "react/jsx-no-target-blank": 0,
     "import/prefer-default-export": 0,
+    "linebreak-style": 0,
   },
 };

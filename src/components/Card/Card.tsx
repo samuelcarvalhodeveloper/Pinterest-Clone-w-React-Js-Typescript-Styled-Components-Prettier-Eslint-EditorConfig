@@ -38,21 +38,17 @@ function Card(props: CardProps) {
             Save
           </a>
           <div className="article__more">
-            <button
-              type="button"
-              className="article__shortcut article__shortcut--link">
+            <a
+              href={props.link}
+              className="article__shortcut article__shortcut--link"
+              target="_blank">
               <img
                 src={Redirect}
                 alt="article redirect"
                 className="article__action article__action--off"
               />
-              <a
-                href={props.link}
-                className="article__truncate"
-                target="_blank">
-                {props.link}
-              </a>
-            </button>
+              <p className="article__truncate">{props.link}</p>
+            </a>
             <button
               type="button"
               className="article__shortcut">
